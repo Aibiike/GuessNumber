@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Seymour One', sans-serif;
+    color: saddlebrown;
+}
+.hero{
+    min-height: 100vh;
+    background: url("../img/bg.jpg")no-repeat center/cover;
+}
+.form-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-box label{
+    text-align: center;
+}
+.container{
+    min-height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px  20px;
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    opacity: .9;
+}
+.hero__title{
+    font-size: 30px;
+    color: #79310d;
+    text-shadow:  #8a5026 0 0 10px;
+}
+.hero__desc{
+    margin: 20px;
+}
+.guess-input{
+    border-radius: 10px;
+    outline: 0;
+    border: 2px solid #81593c;
+    font-family: 'Seymour One', sans-serif;
+    padding: 10px 10px;
+    color: #81593c;
+    margin: 0 5px;
+    width: 141px;
+}
+.guessSubmit{
+    border-radius: 10px;
+    outline: 0;
+    font-family: 'Seymour One', sans-serif;
+    color: #81593c;
+    padding: 10px 5px;
+    border: 2px solid #81593c;
+
+}
+.guessSubmit:hover{
+    background: #81593c;
+    color: white;
+    transition: .6s;
+}
+.resetBtn{
+    padding: 10px 10px;
+    border: 2px solid #81593c;
+    font-family: 'Seymour One', sans-serif;
+    border-radius: 10px;
+    color: #81593c;
+    margin-top: 15px;
+}
+.resetBtn:hover{
+    background: #81593c;
+    color: white;
+    transition: .6s;
+}
+.LastResult{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+}
+.guesses{
+    text-align: center;
+}
+.LowOrHi{
+    text-align: center;
+}
+
+
+
+@media (max-width: 998px){
+    .container{
+         max-width: 400px;
+    }
+    .guess-input{
+        margin-top: 15px;
+    }
+    .guessSubmit{
+        margin-top: 15px;
+    }
+    .hero__title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero__desc{
+        font-size: 16px;
+        text-align: center;
+    }
+    .LastResult{
+        text-align: center;
+    }
+    .guesses{
+        text-align: center;
+    }
+    .LowOrHi{
+        text-align: center;
+    }
+
+}

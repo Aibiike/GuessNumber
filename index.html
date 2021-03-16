@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<section class="hero">
+    <div class="container hero__container">
+        <h1 class="hero__title">Угадай число</h1>
+        <p class="hero__desc">Выберите число от 1 до 100. Посмотрите, сможете ли вы
+            угадать его за 10 попыток. Мы скажем вам, было ли ваше предположение верным
+            или не верным</p>
+        <div class="form-box">
+            <label for="guessField">Введите предположение:</label>
+            <input class="guess-input" type="text" id="guessField">
+            <button class="guessSubmit ">Отправить</button>
+        </div>
+        <div class="resultParas">
+            <div class="guesses"></div>
+            <div class="LastResult"></div>
+            <div class="LowOrHi"></div>
+        </div>
+    </div>
+
+</section>
+<script src="./js/script.js"></script>
+</body>
+</html>
